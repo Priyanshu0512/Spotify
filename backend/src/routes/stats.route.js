@@ -1,16 +1,9 @@
 import { Router } from "express";
-import { Song } from "../models/song.model";
-import { Album } from "../models/album.model";
-import { User } from "../models/user.model";
+import { protectRoute, requireAdmin } from "../middleware/auth.middleware.js";
+import { getStats } from "../controllers/stats.controller.js";
 
 const router = Router();
 
-router.get("/", async (req, res, next) => {
-  try {
-    const totalSongs = await Song.countDocuments();
-    const totalUsers = await User.countDocuments();
-    const totalAlbums = await Album.countDocuments();
-  } catch (error) {}
-});
+router.get("/", protectRoute, requireAdmin, getStats);
 
 export default router;

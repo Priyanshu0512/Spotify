@@ -12,7 +12,7 @@ export const authCallback = async (req, res) => {
         imageUrl,
       });
     }
-
+    console.log("creating user");
     res.status(200).json({ success: true });
   } catch (error) {
     console.log("Error in auth", error);
