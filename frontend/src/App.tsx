@@ -6,7 +6,6 @@ import { AuthenticateWithRedirectCallback } from "@clerk/clerk-react";
 import Mainlayout from "./layout/Mainlayout";
 import ChatPage from "./pages/chat/ChatPage";
 import AlbumPage from "./pages/album/AlbumPage";
-import AudioPlayer from "./layout/components/AudioPlayer";
 
 function App() {
   return (

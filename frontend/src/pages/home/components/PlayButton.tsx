@@ -19,7 +19,7 @@ const PlayButton = ({ song }: { song: Song }) => {
       togglePlay();
     } else {
       if (!queue.some((s) => s._id === song._id)) {
-        initializeQueue([song]);
+        initializeQueue([song, ...queue]);
       }
       setCurrentSong(song);
     }
