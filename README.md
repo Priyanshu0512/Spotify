@@ -10,6 +10,8 @@ A full-stack music streaming application that replicates Spotify's core function
   <img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101" />
 </p>
 
+---
+
 ## ✨ Features
 
 - 🎧 High-quality music streaming with real-time controls
@@ -26,7 +28,7 @@ A full-stack music streaming application that replicates Spotify's core function
 
 ### Backend
 
-- Node.js, Express.js, MongoDB, Mongoose, Socket.io, Cloudinary, JWT
+- Node.js, Express.js, MongoDB, Mongoose, Socket.io, Cloudinary
 
 ## 📋 Prerequisites
 
