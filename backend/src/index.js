@@ -87,4 +87,5 @@ app.use((err, req, res, next) => {
 httpServer.listen(PORT, () => {
   console.log(`Server running of PORT ${PORT}`);
   connectDB();
+  console.log(process.env.NODE_ENV);
 });
