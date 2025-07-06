@@ -31,7 +31,7 @@ A full-stack music streaming application that replicates Spotify's core function
 
 ### Backend
 
-- Node.js, Express.js, MongoDB, Mongoose, Socket.io, Cloudinary, JWT
+- Node.js, Express.js, MongoDB, Mongoose, Socket.io, Cloudinary
 
 ## 📋 Prerequisites
 
