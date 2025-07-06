@@ -10,10 +10,7 @@ A full-stack music streaming application that replicates Spotify's core function
   <img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101" />
 </p>
 
-## Demo
-
-![Uploading Screenshot 2025-07-06 at 8.38.13 AM.png…]()
-
+---
 
 ## ✨ Features
 
