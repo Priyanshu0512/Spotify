@@ -12,6 +12,12 @@ A full-stack music streaming application that replicates Spotify's core function
 
 ---
 
+## Demo 
+
+![Screenshot 2025-07-06 at 1 57 21 PM](https://github.com/user-attachments/assets/dcd2205f-aa4c-45a8-a4f3-fa4b60a4a0a2)
+
+
+
 ## ✨ Features
 
 - 🎧 High-quality music streaming with real-time controls
